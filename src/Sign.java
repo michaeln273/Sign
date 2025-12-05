@@ -10,7 +10,7 @@ public class Sign {
         int len = message.length();
         if (len == 0) return 0;
         if (len < width) return 1;
-        return (int)Math.round(len / (double)width);
+        return (int)Math.ceil(len / (double)width);
     }
 
     public String getLines() {

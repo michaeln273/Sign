@@ -21,8 +21,8 @@ public class Main {
         System.out.println(sign5.numberOfLines());
         System.out.println(sign5.getLines());
 
-//        Sign sign6 = new Sign("Everything on sale, please come in", 15);
-//        System.out.println(sign6.numberOfLines());
-//        System.out.println(sign6.getLines());
+        Sign sign6 = new Sign("Everything on sale, please come in", 15);
+        System.out.println(sign6.numberOfLines());
+        System.out.println(sign6.getLines());
     }
 }
